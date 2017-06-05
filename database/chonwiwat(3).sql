@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 03, 2017 at 02:42 AM
+-- Generation Time: Jun 05, 2017 at 04:43 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -389,7 +389,7 @@ INSERT INTO `oc_category` (`category_id`, `image`, `parent_id`, `top`, `column`,
 (31, '', 25, 0, 0, 1, 0, '2009-02-03 14:17:24', '2017-06-01 06:28:19'),
 (32, '', 25, 0, 0, 1, 0, '2009-02-03 14:17:34', '2017-06-01 06:28:30'),
 (33, '', 0, 1, 1, 6, 0, '2009-02-03 14:17:55', '2017-06-01 05:53:56'),
-(34, 'catalog/demo/ipod_touch_4.jpg', 0, 1, 4, 7, 0, '2009-02-03 14:18:11', '2017-06-01 05:54:09'),
+(34, '', 45, 1, 4, 7, 1, '2009-02-03 14:18:11', '2017-06-05 21:02:51'),
 (35, '', 28, 0, 0, 0, 1, '2010-09-17 10:06:48', '2010-09-18 14:02:42'),
 (36, '', 28, 0, 0, 0, 1, '2010-09-17 10:07:13', '2010-09-18 14:02:55'),
 (37, '', 34, 0, 0, 0, 1, '2010-09-18 14:03:39', '2011-04-22 01:55:08'),
@@ -400,14 +400,14 @@ INSERT INTO `oc_category` (`category_id`, `image`, `parent_id`, `top`, `column`,
 (42, '', 57, 0, 0, 3, 1, '2010-09-18 14:06:34', '2017-06-01 06:18:36'),
 (43, '', 57, 0, 0, 4, 1, '2010-09-18 14:06:49', '2017-06-01 06:19:38'),
 (44, '', 57, 0, 0, 5, 1, '2010-09-21 15:39:21', '2017-06-01 06:22:53'),
-(45, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:16', '2017-06-01 06:09:09'),
-(46, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:31', '2017-06-01 06:02:59'),
+(45, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:16', '2017-06-05 19:47:37'),
+(46, '', 18, 0, 0, 0, 1, '2010-09-24 18:29:31', '2017-06-05 19:48:18'),
 (47, '', 57, 0, 0, 6, 1, '2010-11-07 11:13:16', '2017-06-01 06:24:02'),
 (48, '', 57, 0, 0, 7, 1, '2010-11-07 11:13:33', '2017-06-01 06:25:00'),
-(49, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:04', '2010-11-07 11:14:04'),
-(50, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:23', '2011-04-22 01:16:01'),
-(51, '', 34, 0, 0, 0, 1, '2010-11-07 11:14:38', '2011-04-22 01:16:13'),
-(52, '', 34, 0, 0, 0, 1, '2010-11-07 11:16:09', '2011-04-22 01:54:57'),
+(49, '', 45, 0, 0, 0, 1, '2010-11-07 11:14:04', '2017-06-05 20:20:29'),
+(50, '', 45, 0, 0, 0, 1, '2010-11-07 11:14:23', '2017-06-05 21:04:55'),
+(51, '', 45, 0, 0, 0, 1, '2010-11-07 11:14:38', '2017-06-05 21:20:30'),
+(52, '', 45, 0, 0, 0, 1, '2010-11-07 11:16:09', '2017-06-05 21:28:22'),
 (53, '', 34, 0, 0, 0, 1, '2010-11-07 11:28:53', '2011-04-22 01:14:36'),
 (54, '', 34, 0, 0, 0, 1, '2010-11-07 11:29:16', '2011-04-22 01:16:50'),
 (55, '', 34, 0, 0, 0, 1, '2010-11-08 10:31:32', '2010-11-08 10:31:32'),
@@ -452,16 +452,14 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (40, 1, 'test 7', '', 'test 7', '', ''),
 (41, 1, 'test 8', '', 'test 8', '', ''),
 (43, 1, 'Quick joint', '', 'Quick joint', '', ''),
-(34, 1, 'MP3 Players', '&lt;p&gt;\r\n	Shop Laptop feature only the best laptop deals on the market. By comparing laptop deals from the likes of PC World, Comet, Dixons, The Link and Carphone Warehouse, Shop Laptop has the most comprehensive selection of laptops on the internet. At Shop Laptop, we pride ourselves on offering customers the very best laptop deals. From refurbished laptops to netbooks, Shop Laptop ensures that every laptop - in every colour, style, size and technical spec - is featured on the site at the lowest possible price.&lt;/p&gt;\r\n', 'MP3 Players', '', ''),
+(34, 1, 'สกรูหัวหกเหลี่ยม', '\r\n', 'สกรูหัวหกเหลี่ยม', '', ''),
 (44, 1, 'Grinding &amp; Abrasives', '', 'Grinding &amp; Abrasives', '', ''),
-(45, 1, 'Steel and Other Fasteners', '', 'Steel and Other Fasteners', '', ''),
-(46, 1, 'Steel and Other Fasteners', '', 'Steel and Other Fasteners', '', ''),
 (47, 1, 'Air Tools &amp; Air Compressors', '', 'Air Tools &amp; Air Compressors', '', ''),
 (48, 1, 'Pump &amp; Water System', '', 'Pump &amp; Water System', '', ''),
-(49, 1, 'test 17', '', 'test 17', '', ''),
-(50, 1, 'test 18', '', 'test 18', '', ''),
-(51, 1, 'test 19', '', 'test 19', '', ''),
-(52, 1, 'test 20', '', 'test 20', '', ''),
+(49, 1, 'สกรูหัวจม,ตัวหนอน', '', 'test 17', '', ''),
+(50, 1, 'เกลียวปล่อยปลายแหลม, สกรูปลายสว่าน', '', 'เกลียวปล่อยปลายแหลม, สกรูปลายสว่าน', '', ''),
+(51, 1, 'สกรูหัวกลมแฉก, ผ่า, คอเหลี่ยม', '', 'สกรูหัวกลมแฉก, ผ่า, คอเหลี่ยม', '', ''),
+(52, 1, 'สตัด', '', 'สตัด', '', ''),
 (53, 1, 'test 21', '', 'test 21', '', ''),
 (54, 1, 'test 22', '', 'test 22', '', ''),
 (55, 1, 'test 23', '', 'test 23', '', ''),
@@ -473,7 +471,9 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (17, 1, 'เครื่องเชื่อม และอุปกรณ์', '', 'เครื่องเชื่อม และอุปกรณ์', '', ''),
 (26, 1, 'Hand Tool', '', 'Hand Tool', '', ''),
 (20, 1, 'ท่อ  วาล์ว  อุปกรณ์และเหล็กรูปพรรณ ', '&lt;p&gt;\r\n	Example of category description text&lt;/p&gt;\r\n', 'ท่อ  วาล์ว  อุปกรณ์และเหล็กรูปพรรณ', 'Example of category description', ''),
-(42, 1, 'Coupler', '', 'Coupler', '', '');
+(46, 1, 'สกรูน๊อตเหล็กและอื่นๆ', '', 'สกรูน๊อตเหล็กและอื่นๆ', '', ''),
+(42, 1, 'Coupler', '', 'Coupler', '', ''),
+(45, 1, ' สกรูน๊อตสแตนเลส', '', ' สกรูน๊อตสแตนเลส', '', '');
 
 -- --------------------------------------------------------
 
@@ -533,17 +533,17 @@ INSERT INTO `oc_category_path` (`category_id`, `path_id`, `level`) VALUES
 (46, 46, 1),
 (17, 17, 0),
 (33, 33, 0),
-(34, 34, 0),
-(37, 34, 0),
-(37, 37, 1),
-(38, 34, 0),
-(38, 38, 1),
-(39, 34, 0),
-(39, 39, 1),
-(40, 34, 0),
-(40, 40, 1),
-(41, 34, 0),
-(41, 41, 1),
+(34, 34, 2),
+(37, 34, 2),
+(37, 37, 3),
+(38, 34, 2),
+(38, 38, 3),
+(39, 34, 2),
+(39, 39, 3),
+(40, 34, 2),
+(40, 40, 3),
+(41, 34, 2),
+(41, 41, 3),
 (42, 57, 0),
 (42, 42, 1),
 (43, 57, 0),
@@ -554,26 +554,51 @@ INSERT INTO `oc_category_path` (`category_id`, `path_id`, `level`) VALUES
 (47, 47, 1),
 (48, 57, 0),
 (48, 48, 1),
-(49, 34, 0),
-(49, 49, 1),
-(50, 34, 0),
-(50, 50, 1),
-(51, 34, 0),
-(51, 51, 1),
-(52, 34, 0),
-(52, 52, 1),
-(58, 34, 0),
-(58, 52, 1),
-(58, 58, 2),
-(53, 34, 0),
-(53, 53, 1),
-(54, 34, 0),
-(54, 54, 1),
-(55, 34, 0),
-(55, 55, 1),
-(56, 34, 0),
-(56, 56, 1),
-(57, 57, 0);
+(49, 18, 0),
+(49, 49, 2),
+(50, 45, 1),
+(50, 50, 2),
+(51, 45, 1),
+(51, 51, 2),
+(52, 45, 1),
+(52, 52, 2),
+(58, 45, 1),
+(58, 52, 2),
+(58, 58, 3),
+(53, 34, 2),
+(53, 53, 3),
+(54, 34, 2),
+(54, 54, 3),
+(55, 34, 2),
+(55, 55, 3),
+(56, 34, 2),
+(56, 56, 3),
+(57, 57, 0),
+(34, 18, 0),
+(34, 45, 1),
+(55, 18, 0),
+(55, 45, 1),
+(54, 18, 0),
+(54, 45, 1),
+(53, 18, 0),
+(53, 45, 1),
+(58, 18, 0),
+(52, 18, 0),
+(51, 18, 0),
+(50, 18, 0),
+(49, 45, 1),
+(41, 18, 0),
+(41, 45, 1),
+(40, 18, 0),
+(40, 45, 1),
+(39, 18, 0),
+(39, 45, 1),
+(38, 18, 0),
+(38, 45, 1),
+(37, 18, 0),
+(37, 45, 1),
+(56, 18, 0),
+(56, 45, 1);
 
 -- --------------------------------------------------------
 
@@ -613,7 +638,11 @@ INSERT INTO `oc_category_to_layout` (`category_id`, `store_id`, `layout_id`) VAL
 (28, 0, 0),
 (30, 0, 0),
 (31, 0, 0),
-(32, 0, 0);
+(32, 0, 0),
+(49, 0, 0),
+(50, 0, 0),
+(51, 0, 0),
+(52, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1038,9 +1067,9 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.77579999, 1, '2017-06-03 01:08:26'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2017-06-03 01:08:26'),
-(3, 'Euro', 'EUR', '', '€', '2', 0.88639998, 1, '2017-06-03 01:08:26');
+(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.77520001, 1, '2017-06-05 14:46:37'),
+(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2017-06-05 14:46:37'),
+(3, 'Euro', 'EUR', '', '€', '2', 0.88910002, 1, '2017-06-05 14:46:37');
 
 -- --------------------------------------------------------
 
@@ -2304,16 +2333,25 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `is
 (35, 'Product 8', '', '', '', '', '', '', '', 1000, 5, 'catalog/p_133681.jpg', 0, 0, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2009-02-03 18:08:31', '2017-06-03 06:21:15'),
 (36, 'Product 9', '', '', '', '', '', '', '', 994, 6, 'catalog/HM1306-makita.jpg', 8, 0, '100.0000', 100, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 18:09:19', '2017-06-02 07:05:17'),
 (40, 'product 11', '', '', '', '', '', '', '', 970, 5, 'catalog/1383530723.jpg', 8, 1, '101.0000', 0, 9, '2009-02-03', '10.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2009-02-03 21:07:12', '2017-06-02 07:04:18'),
-(41, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/p_172288.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 1, '2009-02-03 21:07:26', '2017-06-03 06:46:38'),
+(41, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/images1.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 1, '2009-02-03 21:07:26', '2017-06-05 20:54:58'),
 (42, 'Product 15', '', '', '', '', '', '', '', 990, 5, 'catalog/1479960561.jpg', 8, 1, '100.0000', 400, 9, '2009-02-04', '12.50000000', 1, '1.00000000', '2.00000000', '3.00000000', 1, 1, 2, 0, 1, 1, '2009-02-03 21:07:37', '2017-06-02 07:00:26'),
 (43, 'Product 16', '', '', '', '', '', '', '', 929, 5, 'catalog/bo4558.jpg', 8, 0, '500.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:07:49', '2017-06-02 07:07:18'),
 (44, 'Product 17', '', '', '', '', '', '', '', 1000, 5, 'catalog/hr1830.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:00', '2017-06-02 07:07:46'),
 (45, 'Product 18', '', '', '', '', '', '', '', 998, 5, 'catalog/image-1001267-039addc2b92179cae57932c3f4dd66c9-product.jpg', 8, 1, '2000.0000', 0, 0, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-03 21:08:17', '2017-06-02 07:11:30'),
-(46, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/p_173001.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 1, '2009-02-03 21:08:29', '2017-06-03 06:46:13'),
+(46, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/431524.3-Hex-Socket-Cap-Screw-SUS316-Metric-(Product-A)-=-C10-1.png', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 4, '2009-02-03 21:08:29', '2017-06-05 20:22:59'),
 (47, 'Product 21', '', '', '', '', '', '', '', 1000, 5, 'catalog/index1.jpeg', 7, 1, '100.0000', 400, 9, '2009-02-03', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 0, 1, 0, 1, 0, '2009-02-03 21:08:40', '2017-06-02 07:02:29'),
 (48, 'product 20', 'test 1', '', '', '', '', '', 'test 2', 995, 5, 'catalog/hg6500-250x250.jpg', 8, 1, '100.0000', 0, 9, '2009-02-08', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-08 17:21:51', '2017-06-02 07:04:50'),
 (49, 'SAM1', '', '', '', '', '', '', '', 0, 8, 'catalog/2.jpeg', 0, 1, '199.9900', 0, 9, '2011-04-25', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 0, '2011-04-26 08:57:34', '2017-06-03 06:17:36'),
-(50, 'bosch', '', '', '', '', '', '', '', 1, 6, 'catalog/2d64abb79777d1b860a887788a698a77.jpg', 0, 1, '0.0000', 0, 0, '2017-06-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 0, '2017-06-03 06:25:52', '0000-00-00 00:00:00');
+(50, 'bosch', '', '', '', '', '', '', '', 1, 6, 'catalog/2d64abb79777d1b860a887788a698a77.jpg', 0, 1, '0.0000', 0, 0, '2017-06-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 0, '2017-06-03 06:25:52', '0000-00-00 00:00:00'),
+(51, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index2.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 19:49:11', '2017-06-05 20:00:20'),
+(52, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/bolt-06.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 20:01:58', '2017-06-05 21:08:45'),
+(53, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/a2bb021d817c2fd2d90cbc62c32d2822-600x550.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 20:12:03', '2017-06-05 20:27:36'),
+(56, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/kvsengineer_com_0274_1_4_img_2331.png', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 21:10:55', '2017-06-05 21:24:52'),
+(54, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/ProductThumb_46071_27798208_resize.gif', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 20:21:22', '2017-06-05 21:15:00'),
+(55, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/kvsengineer_com_0274_1_4_img_2331.png', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 21:07:50', '2017-06-05 21:18:31'),
+(57, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/ProductThumb_46071_22529843_resize.gif', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 3, '2017-06-05 21:17:25', '2017-06-05 21:33:36'),
+(58, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/p_173001.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 21:23:00', '2017-06-05 21:25:13'),
+(59, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/p_172288.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 0, 0, '2017-06-05 21:28:30', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -2369,6 +2407,7 @@ INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `desc
 (45, 1, 'สว่านไฟฟ้า', '&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n	&lt;div&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Latest Intel mobile architecture&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Powered by the most advanced mobile processors from Intel, the new Core 2 Duo MacBook Pro is over 50% faster than the original Core Duo MacBook Pro and now supports up to 4GB of RAM.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Leading-edge graphics&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			The NVIDIA GeForce 8600M GT delivers exceptional graphics processing power. For the ultimate creative canvas, you can even configure the 17-inch model with a 1920-by-1200 resolution display.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Designed for life on the road&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Innovations such as a magnetic power connection and an illuminated keyboard with ambient light sensor put the MacBook Pro in a class by itself.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Connect. Create. Communicate.&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Quickly set up a video conference with the built-in iSight camera. Control presentations and media from up to 30 feet away with the included Apple Remote. Connect to high-bandwidth peripherals with FireWire 800 and DVI.&lt;/p&gt;\r\n		&lt;p&gt;\r\n			&lt;b&gt;Next-generation wireless&lt;/b&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Featuring 802.11n wireless technology, the MacBook Pro delivers up to five times the performance and up to twice the range of previous-generation technologies.&lt;/p&gt;\r\n	&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;', '', 'MacBook Pro', '', ''),
 (29, 1, 'สว่านโรตารี่', '&lt;p&gt;\r\n	Redefine your workday with the Palm Treo Pro smartphone. Perfectly balanced, you can respond to business and personal email, stay on top of appointments and contacts, and use Wi-Fi or GPS when you&amp;rsquo;re out and about. Then watch a video on YouTube, catch up with news and sports on the web, or listen to a few songs. Balance your work and play the way you like it, with the Palm Treo Pro.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Windows Mobile&amp;reg; 6.1 Professional Edition&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Qualcomm&amp;reg; MSM7201 400MHz Processor&lt;/li&gt;\r\n	&lt;li&gt;\r\n		320x320 transflective colour TFT touchscreen&lt;/li&gt;\r\n	&lt;li&gt;\r\n		HSDPA/UMTS/EDGE/GPRS/GSM radio&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Tri-band UMTS &amp;mdash; 850MHz, 1900MHz, 2100MHz&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Quad-band GSM &amp;mdash; 850/900/1800/1900&lt;/li&gt;\r\n	&lt;li&gt;\r\n		802.11b/g with WPA, WPA2, and 801.1x authentication&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Built-in GPS&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Bluetooth Version: 2.0 + Enhanced Data Rate&lt;/li&gt;\r\n	&lt;li&gt;\r\n		256MB storage (100MB user available), 128MB RAM&lt;/li&gt;\r\n	&lt;li&gt;\r\n		2.0 megapixel camera, up to 8x digital zoom and video capture&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Removable, rechargeable 1500mAh lithium-ion battery&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Up to 5.0 hours talk time and up to 250 hours standby&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroSDHC card expansion (up to 32GB supported)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MicroUSB 2.0 for synchronization and charging&lt;/li&gt;\r\n	&lt;li&gt;\r\n		3.5mm stereo headset jack&lt;/li&gt;\r\n	&lt;li&gt;\r\n		60mm (W) x 114mm (L) x 13.5mm (D) / 133g&lt;/li&gt;\r\n&lt;/ul&gt;\r\n', '', 'Palm Treo Pro', '', ''),
 (36, 1, 'สกัดคอนกรีตไฟฟ้า', '&lt;div&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Video in your pocket.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Its the small iPod with one very big idea: video. The worlds most popular music player now lets you enjoy movies, TV shows, and more on a two-inch display thats 65% brighter than before.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Cover Flow.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Browse through your music collection by flipping through album art. Select an album to turn it over and see the track list.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Enhanced interface.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Experience a whole new way to browse and view your music and video.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Sleek and colorful.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		With an anodized aluminum and polished stainless steel enclosure and a choice of five colors, iPod nano is dressed to impress.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;iTunes.&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Available as a free download, iTunes makes it easy to browse and buy millions of songs, movies, TV shows, audiobooks, and games and download free podcasts all at the iTunes Store. And you can import your own music, manage your whole media library, and sync your iPod or iPhone with ease.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', 'iPod Nano', '', ''),
+(46, 1, 'สกรูหัวจมสแตนเลส เกลียวมิล 304', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
 (47, 1, 'สว่านไฟฟ้างานหนัก', '&lt;p&gt;\r\n	Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you&amp;#39;re at the office&lt;/p&gt;\r\n', '', 'HP LP3065', '', ''),
 (32, 1, 'เลื่อยสายพานตัดโลหะไฟฟ้า', '&lt;p&gt;\r\n	&lt;strong&gt;Revolutionary multi-touch interface.&lt;/strong&gt;&lt;br /&gt;\r\n	iPod touch features the same multi-touch screen technology as iPhone. Pinch to zoom in on a photo. Scroll through your songs and videos with a flick. Flip through your library by album artwork with Cover Flow.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Gorgeous 3.5-inch widescreen display.&lt;/strong&gt;&lt;br /&gt;\r\n	Watch your movies, TV shows, and photos come alive with bright, vivid color on the 320-by-480-pixel display.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Music downloads straight from iTunes.&lt;/strong&gt;&lt;br /&gt;\r\n	Shop the iTunes Wi-Fi Music Store from anywhere with Wi-Fi.1 Browse or search to find the music youre looking for, preview it, and buy it with just a tap.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Surf the web with Wi-Fi.&lt;/strong&gt;&lt;br /&gt;\r\n	Browse the web using Safari and watch YouTube videos on the first iPod with Wi-Fi built in&lt;br /&gt;\r\n	&amp;nbsp;&lt;/p&gt;\r\n', '', '	 iPod Touch', '', ''),
 (33, 1, 'เครื่องสกัดทำลาย', '&lt;div&gt;\r\n	Imagine the advantages of going big without slowing down. The big 19&amp;quot; 941BW monitor combines wide aspect ratio with fast pixel response time, for bigger images, more room to work and crisp motion. In addition, the exclusive MagicBright 2, MagicColor and MagicTune technologies help deliver the ideal image in every situation, while sleek, narrow bezels and adjustable stands deliver style just the way you want it. With the Samsung 941BW widescreen analog/digital LCD monitor, it&amp;#39;s not hard to imagine.&lt;/div&gt;\r\n', '', 'Samsung SyncMaster 941BW', '', ''),
@@ -2379,8 +2418,16 @@ INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `desc
 (42, 1, 'เลื่อยจิ๊กซอ', '&lt;p&gt;\r\n	&lt;font face=&quot;helvetica,geneva,arial&quot; size=&quot;2&quot;&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;2&quot;&gt;The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed specifically for the creative professional, this display provides more space for easier access to all the tools and palettes needed to edit, format and composite your work. Combine this display with a Mac Pro, MacBook Pro, or PowerMac G5 and there\'s no limit to what you can achieve. &lt;br&gt;\r\n	&lt;br&gt;\r\n	&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;2&quot;&gt;The Cinema HD features an active-matrix liquid crystal display that produces flicker-free images that deliver twice the brightness, twice the sharpness and twice the contrast ratio of a typical CRT display. Unlike other flat panels, it\'s designed with a pure digital interface to deliver distortion-free images that never need adjusting. With over 4 million digital pixels, the display is uniquely suited for scientific and technical applications such as visualizing molecular structures or analyzing geological data. &lt;br&gt;\r\n	&lt;br&gt;\r\n	&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;2&quot;&gt;Offering accurate, brilliant color performance, the Cinema HD delivers up to 16.7 million colors across a wide gamut allowing you to see subtle nuances between colors from soft pastels to rich jewel tones. A wide viewing angle ensures uniform color from edge to edge. Apple\'s ColorSync technology allows you to create custom profiles to maintain consistent color onscreen and in print. The result: You can confidently use this display in all your color-critical applications. &lt;br&gt;\r\n	&lt;br&gt;\r\n	&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;2&quot;&gt;Housed in a new aluminum design, the display has a very thin bezel that enhances visual accuracy. Each display features two FireWire 400 ports and two USB 2.0 ports, making attachment of desktop peripherals, such as iSight, iPod, digital and still cameras, hard drives, printers and scanners, even more accessible and convenient. Taking advantage of the much thinner and lighter footprint of an LCD, the new displays support the VESA (Video Electronics Standards Association) mounting interface standard. Customers with the optional Cinema Display VESA Mount Adapter kit gain the flexibility to mount their display in locations most appropriate for their work environment. &lt;br&gt;\r\n	&lt;br&gt;\r\n	&lt;/font&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;2&quot;&gt;The Cinema HD features a single cable design with elegant breakout for the USB 2.0, FireWire 400 and a pure digital connection using the industry standard Digital Video Interface (DVI) interface. The DVI connection allows for a direct pure-digital connection.&lt;br&gt;\r\n	&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;\r\n&lt;h3&gt;\r\n	Features:&lt;/h3&gt;\r\n&lt;p&gt;\r\n	Unrivaled display performance&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		30-inch (viewable) active-matrix liquid crystal display provides breathtaking image quality and vivid, richly saturated color.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Support for 2560-by-1600 pixel resolution for display of high definition still and video imagery.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Wide-format design for simultaneous display of two full pages of text and graphics.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Industry standard DVI connector for direct attachment to Mac- and Windows-based desktops and notebooks&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Incredibly wide (170 degree) horizontal and vertical viewing angle for maximum visibility and color performance.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Lightning-fast pixel response for full-motion digital video playback.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Support for 16.7 million saturated colors, for use in all graphics-intensive applications.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	Simple setup and operation&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Single cable with elegant breakout for connection to DVI, USB and FireWire ports&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Built-in two-port USB 2.0 hub for easy connection of desktop peripheral devices.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Two FireWire 400 ports to support iSight and other desktop peripherals&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	Sleek, elegant design&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Huge virtual workspace, very small footprint.&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Narrow Bezel design to minimize visual impact of using dual displays&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Unique hinge design for effortless adjustment&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Support for VESA mounting solutions (Apple Cinema Display VESA Mount Adapter sold separately)&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;h3&gt;\r\n	Technical specifications&lt;/h3&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Screen size (diagonal viewable image size)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Apple Cinema HD Display: 30 inches (29.7-inch viewable)&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Screen type&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Thin film transistor (TFT) active-matrix liquid crystal display (AMLCD)&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Resolutions&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		2560 x 1600 pixels (optimum resolution)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		2048 x 1280&lt;/li&gt;\r\n	&lt;li&gt;\r\n		1920 x 1200&lt;/li&gt;\r\n	&lt;li&gt;\r\n		1280 x 800&lt;/li&gt;\r\n	&lt;li&gt;\r\n		1024 x 640&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Display colors (maximum)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		16.7 million&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Viewing angle (typical)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		170° horizontal; 170° vertical&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Brightness (typical)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		30-inch Cinema HD Display: 400 cd/m2&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Contrast ratio (typical)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		700:1&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Response time (typical)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		16 ms&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Pixel pitch&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		30-inch Cinema HD Display: 0.250 mm&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Screen treatment&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Antiglare hardcoat&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;User controls (hardware and software)&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Display Power,&lt;/li&gt;\r\n	&lt;li&gt;\r\n		System sleep, wake&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Brightness&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Monitor tilt&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Connectors and cables&lt;/b&gt;&lt;br&gt;\r\n	Cable&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		DVI (Digital Visual Interface)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		FireWire 400&lt;/li&gt;\r\n	&lt;li&gt;\r\n		USB 2.0&lt;/li&gt;\r\n	&lt;li&gt;\r\n		DC power (24 V)&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	Connectors&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Two-port, self-powered USB 2.0 hub&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Two FireWire 400 ports&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Kensington security port&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;VESA mount adapter&lt;/b&gt;&lt;br&gt;\r\n	Requires optional Cinema Display VESA Mount Adapter (M9649G/A)&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Compatible with VESA FDMI (MIS-D, 100, C) compliant mounting solutions&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Electrical requirements&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Input voltage: 100-240 VAC 50-60Hz&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Maximum power when operating: 150W&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Energy saver mode: 3W or less&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Environmental requirements&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Operating temperature: 50° to 95° F (10° to 35° C)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Storage temperature: -40° to 116° F (-40° to 47° C)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Operating humidity: 20% to 80% noncondensing&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Maximum operating altitude: 10,000 feet&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Agency approvals&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		FCC Part 15 Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		EN55022 Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		EN55024&lt;/li&gt;\r\n	&lt;li&gt;\r\n		VCCI Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		AS/NZS 3548 Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		CNS 13438 Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		ICES-003 Class B&lt;/li&gt;\r\n	&lt;li&gt;\r\n		ISO 13406 part 2&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MPR II&lt;/li&gt;\r\n	&lt;li&gt;\r\n		IEC 60950&lt;/li&gt;\r\n	&lt;li&gt;\r\n		UL 60950&lt;/li&gt;\r\n	&lt;li&gt;\r\n		CSA 60950&lt;/li&gt;\r\n	&lt;li&gt;\r\n		EN60950&lt;/li&gt;\r\n	&lt;li&gt;\r\n		ENERGY STAR&lt;/li&gt;\r\n	&lt;li&gt;\r\n		TCO \'03&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;Size and weight&lt;/b&gt;&lt;br&gt;\r\n	30-inch Apple Cinema HD Display&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Height: 21.3 inches (54.3 cm)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Width: 27.2 inches (68.8 cm)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Depth: 8.46 inches (21.5 cm)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Weight: 27.5 pounds (12.5 kg)&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;\r\n	&lt;b&gt;System Requirements&lt;/b&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Mac Pro, all graphic options&lt;/li&gt;\r\n	&lt;li&gt;\r\n		MacBook Pro&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Power Mac G5 (PCI-X) with ATI Radeon 9650 or better or NVIDIA GeForce 6800 GT DDL or better&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Power Mac G5 (PCI Express), all graphics options&lt;/li&gt;\r\n	&lt;li&gt;\r\n		PowerBook G4 with dual-link DVI support&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Windows PC and graphics card that supports DVI ports with dual-link digital bandwidth and VESA DDC standard for plug-and-play setup&lt;/li&gt;\r\n&lt;/ul&gt;\r\n', '', 'Apple Cinema 30', '', ''),
 (30, 1, 'เลื่อยวงเดือน', '&lt;p&gt;\r\n	Canon\'s press material for the EOS 5D states that it \'defines (a) new D-SLR category\', while we\'re not typically too concerned with marketing talk this particular statement is clearly pretty accurate. The EOS 5D is unlike any previous digital SLR in that it combines a full-frame (35 mm sized) high resolution sensor (12.8 megapixels) with a relatively compact body (slightly larger than the EOS 20D, although in your hand it feels noticeably \'chunkier\'). The EOS 5D is aimed to slot in between the EOS 20D and the EOS-1D professional digital SLR\'s, an important difference when compared to the latter is that the EOS 5D doesn\'t have any environmental seals. While Canon don\'t specifically refer to the EOS 5D as a \'professional\' digital SLR it will have obvious appeal to professionals who want a high quality digital SLR in a body lighter than the EOS-1D. It will also no doubt appeal to current EOS 20D owners (although lets hope they\'ve not bought too many EF-S lenses...) äë&lt;/p&gt;\r\n', '', 'sdf', '', ''),
 (50, 1, 'เครื่องจิ๊กซอว์', '', '', 'เครื่องจิ๊กซอว์', '', ''),
-(46, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
-(41, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', '');
+(51, 1, 'สกรูเหลี่ยมตลอด ไม่ชุบ', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูเหลี่ยมตลอด ไม่ชุบ', '', ''),
+(52, 1, 'ตะปูควงสแตนเลส', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'ตะปูควงสแตนเลส', '', ''),
+(41, 1, 'สกรูหัวเหลี่ยมเกลียวครึ่ง', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูหัวเหลี่ยมเกลียวครึ่ง', '', ''),
+(53, 1, 'สกรูหัวเหลี่ยมเกลียวตลอด', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
+(54, 1, 'เกลียวปล่อยสแตนเลส JT+ มิล', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'เกลียวปล่อยสแตนเลส JT+ มิล', '', ''),
+(55, 1, 'เกลียวปล่อยสแตนเลส JF+, JP+ มิล', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'เกลียวปล่อยสแตนเลส JF+, JP+ มิล', '', ''),
+(56, 1, 'สกรูมิลสแตนเลส JF+, JP+', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'สกรูมิลสแตนเลส JF+, JP+', '', ''),
+(58, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
+(59, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
+(57, 1, 'เกลียวตลอดสแตนเลส 1 เมตร', '&lt;p&gt;ABP สกรูน๊อตแสตนเลส&lt;br&gt;&lt;br&gt;คุณภาพเพื่อความยั่งยืน&lt;br&gt;&lt;br&gt;สกรูน๊อตสแตนเลสของเรา อาทิ สลักเกลียว สกรูหัวหกเหลี่ยมสกรูทรงกระบอก&lt;br&gt;สกรูหัวจม แกนเกลียว สกรูตัวหนอน เกลียวปล่อย สกรูปลายสว่าน สกรูหัวฝัง&lt;br&gt;สกรูหัวเตเปอร์ สกรูหัวกลม สตัด พลุ๊ก/ปลั๊กคอนกรีต แองเคอร์ น๊อตตัวยู (ยูโบลท์)&lt;br&gt;หัวน๊อต แป้นเกลียว แหวนอีแปะ แหวนรอง แหวนสปริง แหวนเฟือง แหวนล๊อค&lt;br&gt;ปิ้น พิน สกรูห่วง สกรูตะขอ ผลิตจากวัตุดิบคุณภาพได้มาตรฐาน AISI ทั้งเกรด&lt;br&gt;SS304, SS304L, SS316, SS316L, SS310, SS302HQ และ SS410&lt;br&gt;ซึ่งเป็นวัสดุที่ทนและต้านทานการกัดกร่อนจากสารเคมีและสภาพแวดล้อมได้ดี&lt;br&gt;ตามคุณสมบัติของสแตนเลสแต่ละประเภท DIN 931, DIN 933, DIN 934,&lt;br&gt;DIN 912, DIN 916, DIN 985, DIN 125, DIN 127&lt;br&gt;&lt;br&gt;THE BEST SOURCE OF ALL YOUR&lt;br&gt;&lt;br&gt;SCREWS AND HAND TOOLS&lt;br&gt;&lt;/p&gt;', '', 'เกลียวตลอดสแตนเลส 1 เมตร', '', '');
 
 -- --------------------------------------------------------
 
@@ -2440,7 +2487,7 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2436, 30, 'catalog/demo/canon_eos_5d_3.jpg', 0),
 (2438, 47, 'catalog/demo/hp_2.jpg', 0),
 (2440, 28, 'catalog/demo/htc_touch_hd_3.jpg', 0),
-(2506, 41, 'catalog/demo/imac_3.jpg', 0),
+(2576, 41, 'catalog/demo/imac_3.jpg', 0),
 (2447, 40, 'catalog/demo/iphone_4.jpg', 0),
 (2454, 36, 'catalog/demo/ipod_nano_5.jpg', 0),
 (2453, 36, 'catalog/demo/ipod_nano_4.jpg', 0),
@@ -2458,8 +2505,8 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2478, 31, 'catalog/demo/nikon_d300_5.jpg', 0),
 (2477, 31, 'catalog/demo/nikon_d300_4.jpg', 0),
 (2480, 29, 'catalog/demo/palm_treo_pro_2.jpg', 0),
-(2502, 46, 'catalog/demo/sony_vaio_5.jpg', 0),
-(2501, 46, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2564, 46, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2563, 46, 'catalog/demo/sony_vaio_2.jpg', 0),
 (2450, 48, 'catalog/demo/ipod_classic_4.jpg', 0),
 (2449, 48, 'catalog/demo/ipod_classic_3.jpg', 0),
 (2446, 40, 'catalog/demo/iphone_3.jpg', 0),
@@ -2467,7 +2514,7 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2435, 30, 'catalog/demo/canon_eos_5d_2.jpg', 0),
 (2437, 47, 'catalog/demo/hp_3.jpg', 0),
 (2439, 28, 'catalog/demo/htc_touch_hd_2.jpg', 0),
-(2505, 41, 'catalog/demo/imac_2.jpg', 0),
+(2575, 41, 'catalog/demo/imac_2.jpg', 0),
 (2444, 40, 'catalog/demo/iphone_2.jpg', 0),
 (2443, 40, 'catalog/demo/iphone_6.jpg', 0),
 (2448, 48, 'catalog/demo/ipod_classic_2.jpg', 0),
@@ -2485,8 +2532,8 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2476, 31, 'catalog/demo/nikon_d300_2.jpg', 0),
 (2475, 31, 'catalog/demo/nikon_d300_3.jpg', 0),
 (2479, 29, 'catalog/demo/palm_treo_pro_3.jpg', 0),
-(2500, 46, 'catalog/demo/sony_vaio_2.jpg', 0),
-(2499, 46, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2562, 46, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2561, 46, 'catalog/demo/sony_vaio_5.jpg', 0),
 (2490, 49, 'catalog/demo/samsung_tab_2.jpg', 0),
 (2489, 49, 'catalog/demo/samsung_tab_3.jpg', 0),
 (2488, 49, 'catalog/demo/samsung_tab_4.jpg', 0),
@@ -2498,7 +2545,33 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2432, 42, 'catalog/demo/hp_1.jpg', 0),
 (2431, 42, 'catalog/demo/canon_logo.jpg', 0),
 (2430, 42, 'catalog/demo/canon_eos_5d_2.jpg', 0),
-(2429, 42, 'catalog/1479960561.jpg', 0);
+(2429, 42, 'catalog/1479960561.jpg', 0),
+(2528, 51, 'catalog/demo/imac_3.jpg', 0),
+(2527, 51, 'catalog/demo/imac_2.jpg', 0),
+(2580, 52, 'catalog/demo/imac_3.jpg', 0),
+(2579, 52, 'catalog/demo/imac_2.jpg', 0),
+(2574, 53, 'catalog/demo/sony_vaio_5.jpg', 0),
+(2573, 53, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2572, 53, 'catalog/demo/sony_vaio_2.jpg', 0),
+(2571, 53, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2596, 54, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2595, 54, 'catalog/demo/sony_vaio_2.jpg', 0),
+(2594, 54, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2593, 54, 'catalog/demo/sony_vaio_5.jpg', 0),
+(2600, 55, 'catalog/demo/imac_3.jpg', 0),
+(2599, 55, 'catalog/demo/imac_2.jpg', 0),
+(2608, 56, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2607, 56, 'catalog/demo/sony_vaio_2.jpg', 0),
+(2606, 56, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2605, 56, 'catalog/demo/sony_vaio_5.jpg', 0),
+(2620, 57, 'catalog/demo/imac_3.jpg', 0),
+(2619, 57, 'catalog/demo/imac_2.jpg', 0),
+(2612, 58, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2611, 58, 'catalog/demo/sony_vaio_2.jpg', 0),
+(2610, 58, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2609, 58, 'catalog/demo/sony_vaio_5.jpg', 0),
+(2615, 59, 'catalog/demo/imac_3.jpg', 0),
+(2616, 59, 'catalog/demo/imac_2.jpg', 0);
 
 -- --------------------------------------------------------
 
@@ -2607,7 +2680,15 @@ INSERT INTO `oc_product_related` (`product_id`, `related_id`) VALUES
 (40, 42),
 (41, 42),
 (42, 40),
-(42, 41);
+(42, 41),
+(42, 51),
+(42, 52),
+(42, 55),
+(42, 59),
+(51, 42),
+(52, 42),
+(55, 42),
+(59, 42);
 
 -- --------------------------------------------------------
 
@@ -2687,16 +2768,25 @@ INSERT INTO `oc_product_to_category` (`product_id`, `category_id`) VALUES
 (35, 28),
 (36, 29),
 (40, 29),
-(41, 29),
+(41, 34),
 (42, 29),
 (43, 29),
 (44, 29),
 (45, 28),
-(46, 28),
+(46, 49),
 (47, 29),
 (48, 29),
 (49, 28),
-(50, 28);
+(50, 28),
+(51, 46),
+(52, 50),
+(53, 34),
+(54, 50),
+(55, 50),
+(56, 51),
+(57, 52),
+(58, 28),
+(59, 29);
 
 -- --------------------------------------------------------
 
@@ -2745,7 +2835,16 @@ INSERT INTO `oc_product_to_layout` (`product_id`, `store_id`, `layout_id`) VALUE
 (46, 0, 0),
 (49, 0, 0),
 (35, 0, 0),
-(50, 0, 0);
+(50, 0, 0),
+(51, 0, 0),
+(52, 0, 0),
+(53, 0, 0),
+(54, 0, 0),
+(55, 0, 0),
+(56, 0, 0),
+(57, 0, 0),
+(58, 0, 0),
+(59, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2782,7 +2881,16 @@ INSERT INTO `oc_product_to_store` (`product_id`, `store_id`) VALUES
 (47, 0),
 (48, 0),
 (49, 0),
-(50, 0);
+(50, 0),
+(51, 0),
+(52, 0),
+(53, 0),
+(54, 0),
+(55, 0),
+(56, 0),
+(57, 0),
+(58, 0),
+(59, 0);
 
 -- --------------------------------------------------------
 
@@ -3326,11 +3434,11 @@ INSERT INTO `oc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
 (928, 'manufacturer_id=8', 'apple'),
 (772, 'information_id=4', 'about_us'),
 (907, 'product_id=42', 'test'),
-(855, 'category_id=34', 'mp3-players'),
+(954, 'category_id=34', 'สกรูน๊อตสแตนเลส'),
 (781, 'category_id=36', 'test2'),
 (858, 'category_id=18', 'laptop-notebook'),
-(862, 'category_id=46', 'macs'),
-(869, 'category_id=45', 'windows'),
+(938, 'category_id=46', 'macs'),
+(937, 'category_id=45', 'windows'),
 (861, 'category_id=25', 'component'),
 (879, 'category_id=29', 'mouse'),
 (880, 'category_id=28', 'Bosch'),
@@ -3346,10 +3454,9 @@ INSERT INTO `oc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
 (876, 'category_id=44', 'Grinding &amp; Abrasives'),
 (877, 'category_id=47', 'Air Tools &amp; Air Compressors'),
 (878, 'category_id=48', 'Pump &amp; Water System'),
-(794, 'category_id=49', 'test17'),
-(795, 'category_id=50', 'test18'),
-(796, 'category_id=51', 'test19'),
-(797, 'category_id=52', 'test20'),
+(947, 'category_id=49', 'test17'),
+(955, 'category_id=51', 'test19'),
+(956, 'category_id=52', 'test20'),
 (798, 'category_id=58', 'test25'),
 (799, 'category_id=53', 'test21'),
 (800, 'category_id=54', 'test22'),
@@ -3372,8 +3479,8 @@ INSERT INTO `oc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
 (926, 'product_id=35', 'product-8'),
 (924, 'product_id=49', 'samsung-galaxy-tab-10-1'),
 (922, 'product_id=33', 'samsung-syncmaster-941bw'),
-(934, 'product_id=46', 'sony-vaio'),
-(936, 'product_id=41', 'imac'),
+(948, 'product_id=46', 'sony-vaio'),
+(951, 'product_id=41', 'imac'),
 (912, 'product_id=40', 'iphone'),
 (914, 'product_id=36', 'ipod-nano'),
 (915, 'product_id=34', 'ipod-shuffle'),
@@ -8937,7 +9044,7 @@ ALTER TABLE `oc_order_voucher`
 -- AUTO_INCREMENT for table `oc_product`
 --
 ALTER TABLE `oc_product`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 --
 -- AUTO_INCREMENT for table `oc_product_discount`
 --
@@ -8947,7 +9054,7 @@ ALTER TABLE `oc_product_discount`
 -- AUTO_INCREMENT for table `oc_product_image`
 --
 ALTER TABLE `oc_product_image`
-  MODIFY `product_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2507;
+  MODIFY `product_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2621;
 --
 -- AUTO_INCREMENT for table `oc_product_option`
 --
@@ -9052,7 +9159,7 @@ ALTER TABLE `oc_upload`
 -- AUTO_INCREMENT for table `oc_url_alias`
 --
 ALTER TABLE `oc_url_alias`
-  MODIFY `url_alias_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=937;
+  MODIFY `url_alias_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=957;
 --
 -- AUTO_INCREMENT for table `oc_user`
 --

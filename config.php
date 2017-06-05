@@ -22,7 +22,7 @@ define('DIR_UPLOAD', 'C:/xampp/htdocs/chonwiwat/system/storage/upload/');
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Ekartc2c5');
 define('DB_DATABASE', 'chonwiwat');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
