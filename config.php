@@ -6,17 +6,17 @@ define('HTTP_SERVER', 'http://localhost/chonwiwat/');
 define('HTTPS_SERVER', 'http://localhost/chonwiwat/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/chonwiwat/catalog/');
-define('DIR_SYSTEM', 'C:/xampp/htdocs/chonwiwat/system/');
-define('DIR_IMAGE', 'C:/xampp/htdocs/chonwiwat/image/');
-define('DIR_LANGUAGE', 'C:/xampp/htdocs/chonwiwat/catalog/language/');
-define('DIR_TEMPLATE', 'C:/xampp/htdocs/chonwiwat/catalog/view/theme/');
-define('DIR_CONFIG', 'C:/xampp/htdocs/chonwiwat/system/config/');
-define('DIR_CACHE', 'C:/xampp/htdocs/chonwiwat/system/storage/cache/');
-define('DIR_DOWNLOAD', 'C:/xampp/htdocs/chonwiwat/system/storage/download/');
-define('DIR_LOGS', 'C:/xampp/htdocs/chonwiwat/system/storage/logs/');
-define('DIR_MODIFICATION', 'C:/xampp/htdocs/chonwiwat/system/storage/modification/');
-define('DIR_UPLOAD', 'C:/xampp/htdocs/chonwiwat/system/storage/upload/');
+define('DIR_APPLICATION', 'catalog/');
+define('DIR_SYSTEM', 'system/');
+define('DIR_IMAGE', 'image/');
+define('DIR_LANGUAGE', 'catalog/language/');
+define('DIR_TEMPLATE', 'catalog/view/theme/');
+define('DIR_CONFIG', 'system/config/');
+define('DIR_CACHE', 'system/storage/cache/');
+define('DIR_DOWNLOAD', 'system/storage/download/');
+define('DIR_LOGS', 'system/storage/logs/');
+define('DIR_MODIFICATION', 'system/storage/modification/');
+define('DIR_UPLOAD', 'system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
