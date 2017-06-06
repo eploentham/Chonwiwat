@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 05, 2017 at 04:43 PM
+-- Generation Time: Jun 06, 2017 at 02:31 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -392,11 +392,11 @@ INSERT INTO `oc_category` (`category_id`, `image`, `parent_id`, `top`, `column`,
 (34, '', 45, 1, 4, 7, 1, '2009-02-03 14:18:11', '2017-06-05 21:02:51'),
 (35, '', 28, 0, 0, 0, 1, '2010-09-17 10:06:48', '2010-09-18 14:02:42'),
 (36, '', 28, 0, 0, 0, 1, '2010-09-17 10:07:13', '2010-09-18 14:02:55'),
-(37, '', 34, 0, 0, 0, 1, '2010-09-18 14:03:39', '2011-04-22 01:55:08'),
-(38, '', 34, 0, 0, 0, 1, '2010-09-18 14:03:51', '2010-09-18 14:03:51'),
+(37, '', 46, 0, 0, 0, 1, '2010-09-18 14:03:39', '2017-06-06 06:48:22'),
+(38, '', 46, 0, 0, 0, 1, '2010-09-18 14:03:51', '2017-06-06 06:47:23'),
 (39, '', 34, 0, 0, 0, 1, '2010-09-18 14:04:17', '2011-04-22 01:55:20'),
 (40, '', 34, 0, 0, 0, 1, '2010-09-18 14:05:36', '2010-09-18 14:05:36'),
-(41, '', 34, 0, 0, 0, 1, '2010-09-18 14:05:49', '2011-04-22 01:55:30'),
+(41, '', 46, 0, 0, 0, 1, '2010-09-18 14:05:49', '2017-06-06 06:13:10'),
 (42, '', 57, 0, 0, 3, 1, '2010-09-18 14:06:34', '2017-06-01 06:18:36'),
 (43, '', 57, 0, 0, 4, 1, '2010-09-18 14:06:49', '2017-06-01 06:19:38'),
 (44, '', 57, 0, 0, 5, 1, '2010-09-21 15:39:21', '2017-06-01 06:22:53'),
@@ -408,10 +408,10 @@ INSERT INTO `oc_category` (`category_id`, `image`, `parent_id`, `top`, `column`,
 (50, '', 45, 0, 0, 0, 1, '2010-11-07 11:14:23', '2017-06-05 21:04:55'),
 (51, '', 45, 0, 0, 0, 1, '2010-11-07 11:14:38', '2017-06-05 21:20:30'),
 (52, '', 45, 0, 0, 0, 1, '2010-11-07 11:16:09', '2017-06-05 21:28:22'),
-(53, '', 34, 0, 0, 0, 1, '2010-11-07 11:28:53', '2011-04-22 01:14:36'),
-(54, '', 34, 0, 0, 0, 1, '2010-11-07 11:29:16', '2011-04-22 01:16:50'),
-(55, '', 34, 0, 0, 0, 1, '2010-11-08 10:31:32', '2010-11-08 10:31:32'),
-(56, '', 34, 0, 0, 0, 1, '2010-11-08 10:31:50', '2011-04-22 01:16:37'),
+(53, '', 46, 0, 0, 0, 1, '2010-11-07 11:28:53', '2017-06-06 06:00:53'),
+(54, '', 46, 0, 0, 0, 1, '2010-11-07 11:29:16', '2017-06-06 06:26:35'),
+(55, '', 46, 0, 0, 0, 1, '2010-11-08 10:31:32', '2017-06-06 06:36:49'),
+(56, '', 46, 0, 0, 0, 1, '2010-11-08 10:31:50', '2017-06-06 06:46:43'),
 (57, '', 0, 1, 1, 3, 1, '2011-04-26 08:53:16', '2017-06-01 06:01:03'),
 (58, '', 52, 0, 0, 0, 1, '2011-05-08 13:44:16', '2011-05-08 13:44:16');
 
@@ -446,11 +446,11 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (24, 1, 'Phones &amp; PDAs', '', 'Phones &amp; PDAs', '', ''),
 (35, 1, 'test 1', '', 'test 1', '', ''),
 (36, 1, 'test 2', '', 'test 2', '', ''),
-(37, 1, 'test 5', '', 'test 5', '', ''),
-(38, 1, 'test 4', '', 'test 4', '', ''),
+(37, 1, 'หัวน๊อต', '', 'หัวน๊อต', '', ''),
+(38, 1, 'สตัด', '', 'สตัด', '', ''),
 (39, 1, 'test 6', '', 'test 6', '', ''),
 (40, 1, 'test 7', '', 'test 7', '', ''),
-(41, 1, 'test 8', '', 'test 8', '', ''),
+(41, 1, 'สกรูหัวหกเหลี่ยม', '', 'test 8', '', ''),
 (43, 1, 'Quick joint', '', 'Quick joint', '', ''),
 (34, 1, 'สกรูหัวหกเหลี่ยม', '\r\n', 'สกรูหัวหกเหลี่ยม', '', ''),
 (44, 1, 'Grinding &amp; Abrasives', '', 'Grinding &amp; Abrasives', '', ''),
@@ -460,10 +460,10 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (50, 1, 'เกลียวปล่อยปลายแหลม, สกรูปลายสว่าน', '', 'เกลียวปล่อยปลายแหลม, สกรูปลายสว่าน', '', ''),
 (51, 1, 'สกรูหัวกลมแฉก, ผ่า, คอเหลี่ยม', '', 'สกรูหัวกลมแฉก, ผ่า, คอเหลี่ยม', '', ''),
 (52, 1, 'สตัด', '', 'สตัด', '', ''),
-(53, 1, 'test 21', '', 'test 21', '', ''),
-(54, 1, 'test 22', '', 'test 22', '', ''),
-(55, 1, 'test 23', '', 'test 23', '', ''),
-(56, 1, 'test 24', '', 'test 24', '', ''),
+(53, 1, 'สกรูน๊อต สำหรับโครงสร้าง', '', 'สกรูน๊อต สำหรับโครงสร้าง', '', ''),
+(54, 1, 'สกรูหัวจม, ตัวหนอน', '', 'สกรูหัวจม, ตัวหนอน', '', ''),
+(55, 1, 'เกลียวปล่อย ปลายแหลม, สกรูปลายสว่าน', '', 'เกลียวปล่อย ปลายแหลม, สกรูปลายสว่าน', '', ''),
+(56, 1, 'สกรูหัวแฉก, ผ่า', '', 'สกรูหัวแฉก, ผ่า', '', ''),
 (58, 1, 'test 25', '', 'test 25', '', ''),
 (18, 1, 'สกรู น๊อต และสลักภัณฑ์', '&lt;p&gt;\r\n	Shop Laptop feature only the best laptop deals on the market. By comparing laptop deals from the likes of PC World, Comet, Dixons, The Link and Carphone Warehouse, Shop Laptop has the most comprehensive selection of laptops on the internet. At Shop Laptop, we pride ourselves on offering customers the very best laptop deals. From refurbished laptops to netbooks, Shop Laptop ensures that every laptop - in every colour, style, size and technical spec - is featured on the site at the lowest possible price.&lt;/p&gt;\r\n', 'สกรู น๊อต และสลักภัณฑ์', '', ''),
 (57, 1, 'ฮาร์ดแวร์', '', 'ฮาร์ดแวร์', '', ''),
@@ -534,16 +534,16 @@ INSERT INTO `oc_category_path` (`category_id`, `path_id`, `level`) VALUES
 (17, 17, 0),
 (33, 33, 0),
 (34, 34, 2),
-(37, 34, 2),
-(37, 37, 3),
-(38, 34, 2),
-(38, 38, 3),
+(37, 46, 1),
+(37, 37, 2),
+(38, 46, 1),
+(38, 38, 2),
 (39, 34, 2),
 (39, 39, 3),
 (40, 34, 2),
 (40, 40, 3),
-(41, 34, 2),
-(41, 41, 3),
+(41, 46, 1),
+(41, 41, 2),
 (42, 57, 0),
 (42, 42, 1),
 (43, 57, 0),
@@ -565,40 +565,33 @@ INSERT INTO `oc_category_path` (`category_id`, `path_id`, `level`) VALUES
 (58, 45, 1),
 (58, 52, 2),
 (58, 58, 3),
-(53, 34, 2),
-(53, 53, 3),
-(54, 34, 2),
-(54, 54, 3),
-(55, 34, 2),
-(55, 55, 3),
-(56, 34, 2),
-(56, 56, 3),
+(53, 46, 1),
+(53, 53, 2),
+(54, 46, 1),
+(54, 54, 2),
+(55, 46, 1),
+(55, 55, 2),
+(56, 46, 1),
+(56, 56, 2),
 (57, 57, 0),
 (34, 18, 0),
 (34, 45, 1),
 (55, 18, 0),
-(55, 45, 1),
 (54, 18, 0),
-(54, 45, 1),
 (53, 18, 0),
-(53, 45, 1),
 (58, 18, 0),
 (52, 18, 0),
 (51, 18, 0),
 (50, 18, 0),
 (49, 45, 1),
 (41, 18, 0),
-(41, 45, 1),
 (40, 18, 0),
 (40, 45, 1),
 (39, 18, 0),
 (39, 45, 1),
 (38, 18, 0),
-(38, 45, 1),
 (37, 18, 0),
-(37, 45, 1),
-(56, 18, 0),
-(56, 45, 1);
+(56, 18, 0);
 
 -- --------------------------------------------------------
 
@@ -642,7 +635,14 @@ INSERT INTO `oc_category_to_layout` (`category_id`, `store_id`, `layout_id`) VAL
 (49, 0, 0),
 (50, 0, 0),
 (51, 0, 0),
-(52, 0, 0);
+(52, 0, 0),
+(53, 0, 0),
+(41, 0, 0),
+(54, 0, 0),
+(55, 0, 0),
+(56, 0, 0),
+(38, 0, 0),
+(37, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1068,7 +1068,7 @@ CREATE TABLE `oc_currency` (
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
 (1, 'Pound Sterling', 'GBP', '£', '', '2', 0.77520001, 1, '2017-06-05 14:46:37'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2017-06-05 14:46:37'),
+(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2017-06-06 00:59:57'),
 (3, 'Euro', 'EUR', '', '€', '2', 0.88910002, 1, '2017-06-05 14:46:37');
 
 -- --------------------------------------------------------
@@ -1778,7 +1778,7 @@ CREATE TABLE `oc_manufacturer` (
 
 INSERT INTO `oc_manufacturer` (`manufacturer_id`, `name`, `image`, `sort_order`) VALUES
 (5, 'YAWATA', 'catalog/yawataLogo.png', 0),
-(6, 'Palm', 'catalog/demo/palm_logo.jpg', 0),
+(6, 'ABP', 'catalog/logo1.jpg', 0),
 (7, 'KOBE', 'catalog/KOBE-grinding-cutting.jpg', 0),
 (8, 'Bosch', 'catalog/Bosch-logo.png', 0),
 (9, 'Makita', 'catalog/Makita_logo_logotype.png', 0),
@@ -2343,7 +2343,7 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `is
 (48, 'product 20', 'test 1', '', '', '', '', '', 'test 2', 995, 5, 'catalog/hg6500-250x250.jpg', 8, 1, '100.0000', 0, 9, '2009-02-08', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2009-02-08 17:21:51', '2017-06-02 07:04:50'),
 (49, 'SAM1', '', '', '', '', '', '', '', 0, 8, 'catalog/2.jpeg', 0, 1, '199.9900', 0, 9, '2011-04-25', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 0, '2011-04-26 08:57:34', '2017-06-03 06:17:36'),
 (50, 'bosch', '', '', '', '', '', '', '', 1, 6, 'catalog/2d64abb79777d1b860a887788a698a77.jpg', 0, 1, '0.0000', 0, 0, '2017-06-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, 0, '2017-06-03 06:25:52', '0000-00-00 00:00:00'),
-(51, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index2.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 19:49:11', '2017-06-05 20:00:20'),
+(51, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index2.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 19:49:11', '2017-06-06 06:11:50'),
 (52, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/bolt-06.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 20:01:58', '2017-06-05 21:08:45'),
 (53, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/a2bb021d817c2fd2d90cbc62c32d2822-600x550.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 20:12:03', '2017-06-05 20:27:36'),
 (56, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/kvsengineer_com_0274_1_4_img_2331.png', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 21:10:55', '2017-06-05 21:24:52'),
@@ -2351,7 +2351,16 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `is
 (55, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/kvsengineer_com_0274_1_4_img_2331.png', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 21:07:50', '2017-06-05 21:18:31'),
 (57, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/ProductThumb_46071_22529843_resize.gif', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 3, '2017-06-05 21:17:25', '2017-06-05 21:33:36'),
 (58, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/p_173001.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-05 21:23:00', '2017-06-05 21:25:13'),
-(59, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/p_172288.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 0, 0, '2017-06-05 21:28:30', '0000-00-00 00:00:00');
+(59, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/p_172288.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-05 21:28:30', '2017-06-06 06:17:23'),
+(60, 'Product 19', '', '', '', '', '', '', '', 1000, 5, 'catalog/ProductThumb_46071_38399511_resize.jpg', 6, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, 0, '2017-06-06 06:01:20', '2017-06-06 06:10:48'),
+(61, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/168772.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:17:31', '2017-06-06 06:18:49'),
+(62, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/Product_46071_605698142_fullsize.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:19:41', '2017-06-06 06:20:56'),
+(63, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index5.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:28:10', '2017-06-06 06:31:37'),
+(64, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/Product_46071_814419713_fullsize.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:37:35', '2017-06-06 06:41:21'),
+(65, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index6.jpeg', 9, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:42:55', '2017-06-06 06:44:12'),
+(66, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index7.jpeg', 6, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 06:50:31', '2017-06-06 06:52:59'),
+(67, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index8.jpeg', 6, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 07:06:20', '2017-06-06 07:07:56'),
+(68, 'Product 14', '', '', '', '', '', '', '', 977, 5, 'catalog/index9.jpeg', 6, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, 0, '2017-06-06 07:10:19', '2017-06-06 07:11:23');
 
 -- --------------------------------------------------------
 
@@ -2427,7 +2436,16 @@ INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `desc
 (56, 1, 'สกรูมิลสแตนเลส JF+, JP+', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'สกรูมิลสแตนเลส JF+, JP+', '', ''),
 (58, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
 (59, 1, 'กบไฟฟ้า', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'กบไฟฟ้า', '', ''),
-(57, 1, 'เกลียวตลอดสแตนเลส 1 เมตร', '&lt;p&gt;ABP สกรูน๊อตแสตนเลส&lt;br&gt;&lt;br&gt;คุณภาพเพื่อความยั่งยืน&lt;br&gt;&lt;br&gt;สกรูน๊อตสแตนเลสของเรา อาทิ สลักเกลียว สกรูหัวหกเหลี่ยมสกรูทรงกระบอก&lt;br&gt;สกรูหัวจม แกนเกลียว สกรูตัวหนอน เกลียวปล่อย สกรูปลายสว่าน สกรูหัวฝัง&lt;br&gt;สกรูหัวเตเปอร์ สกรูหัวกลม สตัด พลุ๊ก/ปลั๊กคอนกรีต แองเคอร์ น๊อตตัวยู (ยูโบลท์)&lt;br&gt;หัวน๊อต แป้นเกลียว แหวนอีแปะ แหวนรอง แหวนสปริง แหวนเฟือง แหวนล๊อค&lt;br&gt;ปิ้น พิน สกรูห่วง สกรูตะขอ ผลิตจากวัตุดิบคุณภาพได้มาตรฐาน AISI ทั้งเกรด&lt;br&gt;SS304, SS304L, SS316, SS316L, SS310, SS302HQ และ SS410&lt;br&gt;ซึ่งเป็นวัสดุที่ทนและต้านทานการกัดกร่อนจากสารเคมีและสภาพแวดล้อมได้ดี&lt;br&gt;ตามคุณสมบัติของสแตนเลสแต่ละประเภท DIN 931, DIN 933, DIN 934,&lt;br&gt;DIN 912, DIN 916, DIN 985, DIN 125, DIN 127&lt;br&gt;&lt;br&gt;THE BEST SOURCE OF ALL YOUR&lt;br&gt;&lt;br&gt;SCREWS AND HAND TOOLS&lt;br&gt;&lt;/p&gt;', '', 'เกลียวตลอดสแตนเลส 1 เมตร', '', '');
+(57, 1, 'เกลียวตลอดสแตนเลส 1 เมตร', '&lt;p&gt;ABP สกรูน๊อตแสตนเลส&lt;br&gt;&lt;br&gt;คุณภาพเพื่อความยั่งยืน&lt;br&gt;&lt;br&gt;สกรูน๊อตสแตนเลสของเรา อาทิ สลักเกลียว สกรูหัวหกเหลี่ยมสกรูทรงกระบอก&lt;br&gt;สกรูหัวจม แกนเกลียว สกรูตัวหนอน เกลียวปล่อย สกรูปลายสว่าน สกรูหัวฝัง&lt;br&gt;สกรูหัวเตเปอร์ สกรูหัวกลม สตัด พลุ๊ก/ปลั๊กคอนกรีต แองเคอร์ น๊อตตัวยู (ยูโบลท์)&lt;br&gt;หัวน๊อต แป้นเกลียว แหวนอีแปะ แหวนรอง แหวนสปริง แหวนเฟือง แหวนล๊อค&lt;br&gt;ปิ้น พิน สกรูห่วง สกรูตะขอ ผลิตจากวัตุดิบคุณภาพได้มาตรฐาน AISI ทั้งเกรด&lt;br&gt;SS304, SS304L, SS316, SS316L, SS310, SS302HQ และ SS410&lt;br&gt;ซึ่งเป็นวัสดุที่ทนและต้านทานการกัดกร่อนจากสารเคมีและสภาพแวดล้อมได้ดี&lt;br&gt;ตามคุณสมบัติของสแตนเลสแต่ละประเภท DIN 931, DIN 933, DIN 934,&lt;br&gt;DIN 912, DIN 916, DIN 985, DIN 125, DIN 127&lt;br&gt;&lt;br&gt;THE BEST SOURCE OF ALL YOUR&lt;br&gt;&lt;br&gt;SCREWS AND HAND TOOLS&lt;br&gt;&lt;/p&gt;', '', 'เกลียวตลอดสแตนเลส 1 เมตร', '', ''),
+(60, 1, 'สกรูพร้อมน๊อตและ 1 แหวนอีแปะดำ A490', '&lt;div&gt;\r\n	Unprecedented power. The next generation of processing technology has arrived. Built into the newest VAIO notebooks lies Intel&amp;#39;s latest, most powerful innovation yet: Intel&amp;reg; Centrino&amp;reg; 2 processor technology. Boasting incredible speed, expanded wireless connectivity, enhanced multimedia support and greater energy efficiency, all the high-performance essentials are seamlessly combined into a single chip.&lt;/div&gt;\r\n', '', 'สกรูพร้อมน๊อตและ 1 แหวนอีแปะดำ A490', '', ''),
+(61, 1, 'สกรูมิลเหลี่ยมขาว (เกรด 4.6)', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูมิลเหลี่ยมขาว (เกรด 4.6)', '', ''),
+(62, 1, 'สกรูมิลดำ เหล็กแข็ง เกรด 8.8', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูมิลดำ เหล็กแข็ง เกรด 8.8', '', ''),
+(63, 1, 'สกรูหัวจมดำ เกลียวมิล (เกรด 12.9)', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูหัวจมดำ เกลียวมิล (เกรด 12.9)', '', ''),
+(64, 1, 'เกลียวเหล็ก ชุบนิเกิล/ชุบดำ หัวกลม JP+', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'เกลียวเหล็ก ชุบนิเกิล/ชุบดำ หัวกลม JP+', '', ''),
+(65, 1, 'เกลียวเหล็ก ชุบรุ้ง/ เกลียวเหล็ก ชุบดำ หัวกะทะ JT+', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'เกลียวเหล็ก ชุบรุ้ง/ เกลียวเหล็ก ชุบดำ หัวกะทะ JT+', '', ''),
+(66, 1, 'เกลียวปล่อยยิบซั่มดำ หัวเตเปอร์ JF+', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'เกลียวปล่อยยิบซั่มดำ หัวเตเปอร์ JF+', '', ''),
+(67, 1, 'สกรูมิล ชุบขาว/ชุบดำ JP+ (กลมนูน)', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูมิล ชุบขาว/ชุบดำ JP+ (กลมนูน)', '', ''),
+(68, 1, 'สกรูมิล หัวกะทะ JT+ (ชุบขาว/ชุบดำ)', '&lt;div&gt;\r\n	Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.&lt;/div&gt;\r\n', '', 'สกรูมิล หัวกะทะ JT+ (ชุบขาว/ชุบดำ)', '', '');
 
 -- --------------------------------------------------------
 
@@ -2546,8 +2564,8 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2431, 42, 'catalog/demo/canon_logo.jpg', 0),
 (2430, 42, 'catalog/demo/canon_eos_5d_2.jpg', 0),
 (2429, 42, 'catalog/1479960561.jpg', 0),
-(2528, 51, 'catalog/demo/imac_3.jpg', 0),
-(2527, 51, 'catalog/demo/imac_2.jpg', 0),
+(2634, 51, 'catalog/demo/imac_2.jpg', 0),
+(2633, 51, 'catalog/demo/imac_3.jpg', 0),
 (2580, 52, 'catalog/demo/imac_3.jpg', 0),
 (2579, 52, 'catalog/demo/imac_2.jpg', 0),
 (2574, 53, 'catalog/demo/sony_vaio_5.jpg', 0),
@@ -2570,8 +2588,28 @@ INSERT INTO `oc_product_image` (`product_image_id`, `product_id`, `image`, `sort
 (2611, 58, 'catalog/demo/sony_vaio_2.jpg', 0),
 (2610, 58, 'catalog/demo/sony_vaio_4.jpg', 0),
 (2609, 58, 'catalog/demo/sony_vaio_5.jpg', 0),
-(2615, 59, 'catalog/demo/imac_3.jpg', 0),
-(2616, 59, 'catalog/demo/imac_2.jpg', 0);
+(2636, 59, 'catalog/demo/imac_2.jpg', 0),
+(2635, 59, 'catalog/demo/imac_3.jpg', 0),
+(2632, 60, 'catalog/demo/sony_vaio_3.jpg', 0),
+(2631, 60, 'catalog/demo/sony_vaio_2.jpg', 0),
+(2630, 60, 'catalog/demo/sony_vaio_4.jpg', 0),
+(2629, 60, 'catalog/demo/sony_vaio_5.jpg', 0),
+(2640, 61, 'catalog/demo/imac_3.jpg', 0),
+(2639, 61, 'catalog/demo/imac_2.jpg', 0),
+(2644, 62, 'catalog/demo/imac_3.jpg', 0),
+(2643, 62, 'catalog/demo/imac_2.jpg', 0),
+(2648, 63, 'catalog/demo/imac_3.jpg', 0),
+(2647, 63, 'catalog/demo/imac_2.jpg', 0),
+(2654, 64, 'catalog/demo/imac_2.jpg', 0),
+(2653, 64, 'catalog/demo/imac_3.jpg', 0),
+(2658, 65, 'catalog/demo/imac_3.jpg', 0),
+(2657, 65, 'catalog/demo/imac_2.jpg', 0),
+(2662, 66, 'catalog/demo/imac_3.jpg', 0),
+(2661, 66, 'catalog/demo/imac_2.jpg', 0),
+(2666, 67, 'catalog/demo/imac_3.jpg', 0),
+(2665, 67, 'catalog/demo/imac_2.jpg', 0),
+(2670, 68, 'catalog/demo/imac_3.jpg', 0),
+(2669, 68, 'catalog/demo/imac_2.jpg', 0);
 
 -- --------------------------------------------------------
 
@@ -2685,10 +2723,26 @@ INSERT INTO `oc_product_related` (`product_id`, `related_id`) VALUES
 (42, 52),
 (42, 55),
 (42, 59),
+(42, 61),
+(42, 62),
+(42, 63),
+(42, 64),
+(42, 65),
+(42, 66),
+(42, 67),
+(42, 68),
 (51, 42),
 (52, 42),
 (55, 42),
-(59, 42);
+(59, 42),
+(61, 42),
+(62, 42),
+(63, 42),
+(64, 42),
+(65, 42),
+(66, 42),
+(67, 42),
+(68, 42);
 
 -- --------------------------------------------------------
 
@@ -2778,7 +2832,7 @@ INSERT INTO `oc_product_to_category` (`product_id`, `category_id`) VALUES
 (48, 29),
 (49, 28),
 (50, 28),
-(51, 46),
+(51, 34),
 (52, 50),
 (53, 34),
 (54, 50),
@@ -2786,7 +2840,16 @@ INSERT INTO `oc_product_to_category` (`product_id`, `category_id`) VALUES
 (56, 51),
 (57, 52),
 (58, 28),
-(59, 29);
+(59, 29),
+(60, 53),
+(61, 41),
+(62, 41),
+(63, 54),
+(64, 55),
+(65, 55),
+(66, 55),
+(67, 56),
+(68, 56);
 
 -- --------------------------------------------------------
 
@@ -2844,7 +2907,16 @@ INSERT INTO `oc_product_to_layout` (`product_id`, `store_id`, `layout_id`) VALUE
 (56, 0, 0),
 (57, 0, 0),
 (58, 0, 0),
-(59, 0, 0);
+(59, 0, 0),
+(60, 0, 0),
+(61, 0, 0),
+(62, 0, 0),
+(63, 0, 0),
+(64, 0, 0),
+(65, 0, 0),
+(66, 0, 0),
+(67, 0, 0),
+(68, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2890,7 +2962,16 @@ INSERT INTO `oc_product_to_store` (`product_id`, `store_id`) VALUES
 (56, 0),
 (57, 0),
 (58, 0),
-(59, 0);
+(59, 0),
+(60, 0),
+(61, 0),
+(62, 0),
+(63, 0),
+(64, 0),
+(65, 0),
+(66, 0),
+(67, 0),
+(68, 0);
 
 -- --------------------------------------------------------
 
@@ -3458,15 +3539,15 @@ INSERT INTO `oc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
 (955, 'category_id=51', 'test19'),
 (956, 'category_id=52', 'test20'),
 (798, 'category_id=58', 'test25'),
-(799, 'category_id=53', 'test21'),
-(800, 'category_id=54', 'test22'),
-(801, 'category_id=55', 'test23'),
-(802, 'category_id=56', 'test24'),
-(803, 'category_id=38', 'test4'),
-(804, 'category_id=37', 'test5'),
+(957, 'category_id=53', 'test21'),
+(960, 'category_id=54', 'test22'),
+(961, 'category_id=55', 'test23'),
+(962, 'category_id=56', 'test24'),
+(963, 'category_id=38', 'test4'),
+(964, 'category_id=37', 'test5'),
 (805, 'category_id=39', 'test6'),
 (806, 'category_id=40', 'test7'),
-(807, 'category_id=41', 'test8'),
+(959, 'category_id=41', 'test8'),
 (874, 'category_id=42', 'Coupler'),
 (908, 'product_id=30', 'canon-eos-5d'),
 (909, 'product_id=47', 'hp-lp3065'),
@@ -3488,7 +3569,7 @@ INSERT INTO `oc_url_alias` (`url_alias_id`, `query`, `keyword`) VALUES
 (931, 'manufacturer_id=9', 'Makita'),
 (932, 'manufacturer_id=5', 'YAWATA'),
 (930, 'manufacturer_id=7', 'KOBE'),
-(831, 'manufacturer_id=6', 'palm'),
+(958, 'manufacturer_id=6', 'palm'),
 (832, 'manufacturer_id=10', 'sony'),
 (841, 'information_id=6', 'delivery'),
 (842, 'information_id=3', 'privacy'),
@@ -9044,7 +9125,7 @@ ALTER TABLE `oc_order_voucher`
 -- AUTO_INCREMENT for table `oc_product`
 --
 ALTER TABLE `oc_product`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 --
 -- AUTO_INCREMENT for table `oc_product_discount`
 --
@@ -9054,7 +9135,7 @@ ALTER TABLE `oc_product_discount`
 -- AUTO_INCREMENT for table `oc_product_image`
 --
 ALTER TABLE `oc_product_image`
-  MODIFY `product_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2621;
+  MODIFY `product_image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2671;
 --
 -- AUTO_INCREMENT for table `oc_product_option`
 --
@@ -9159,7 +9240,7 @@ ALTER TABLE `oc_upload`
 -- AUTO_INCREMENT for table `oc_url_alias`
 --
 ALTER TABLE `oc_url_alias`
-  MODIFY `url_alias_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=957;
+  MODIFY `url_alias_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=965;
 --
 -- AUTO_INCREMENT for table `oc_user`
 --
